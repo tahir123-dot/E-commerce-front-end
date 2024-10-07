@@ -43,7 +43,7 @@ p {
   margin: 40px 0;
 }
 
-button .normal{
+.normal {
   font-size: 14px;
   font-weight: 600;
   padding: 15px 30px;
@@ -56,6 +56,17 @@ button .normal{
   transition: 0.2s;
 }
 
+.white {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #fff;
+  outline: none;
+  transition: 0.2s;
+}
 body {
   width: 100%;
 }
@@ -143,7 +154,7 @@ body {
   font-size: 15px;
 }
 
-#feature{
+#feature {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -164,7 +175,7 @@ body {
   box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
 }
 
-#feature > .fe-box > img{
+#feature > .fe-box > img {
   width: 100%;
   margin-bottom: 10px;
 }
@@ -178,34 +189,34 @@ body {
   background-color: #fddde4;
 }
 
-#feature > .fe-box:nth-child(2) > h6{
+#feature > .fe-box:nth-child(2) > h6 {
   background-color: #cdebbc;
 }
-#feature > .fe-box:nth-child(3) > h6{
+#feature > .fe-box:nth-child(3) > h6 {
   background-color: #d1e8f2;
 }
-#feature > .fe-box:nth-child(4) > h6{
+#feature > .fe-box:nth-child(4) > h6 {
   background-color: #cdd4f8;
 }
-#feature > .fe-box:nth-child(5) > h6{
+#feature > .fe-box:nth-child(5) > h6 {
   background-color: #f6dbf6;
 }
-#feature > .fe-box:nth-child(6) > h6{
+#feature > .fe-box:nth-child(6) > h6 {
   background-color: #fff2e5;
 }
 
-#product1{
+#product1 {
   text-align: center;
 }
 
-#product1> .pro-container{
+#product1 > .pro-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-#product1 > .pro-container > .pro{
+#product1 > .pro-container > .pro {
   width: 23%;
   min-width: 250px;
   padding: 10px 12px;
@@ -218,37 +229,37 @@ body {
   position: relative;
 }
 
-#product1 > .pro-container > .pro:hover{
+#product1 > .pro-container > .pro:hover {
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
 }
 
-#product1 > .pro-container > .pro >img{
+#product1 > .pro-container > .pro > img {
   width: 100%;
   border-radius: 20px;
 }
 
-#product1 > .pro-container > .pro > .des{
+#product1 > .pro-container > .pro > .des {
   text-align: start;
   padding: 10px 0;
 }
 
-#product1 > .pro-container > .pro > span{
+#product1 > .pro-container > .pro > span {
   color: #606063;
   font-size: 12px;
 }
 
-#product1 > .pro-container > .pro > h5{
+#product1 > .pro-container > .pro > h5 {
   padding-top: 7px;
   color: #1a1a1a;
   font-size: 14px;
 }
 
-#product1 > .pro-container > .pro > .des > .star > i{
+#product1 > .pro-container > .pro > .des > .star > i {
   font-size: 12px;
   color: rgb(243, 181, 25);
 }
 
-#product1 .pro .des h4{
+#product1 .pro .des h4 {
   padding-top: 7px;
   font-size: 15px;
   font-weight: 700;
@@ -267,10 +278,9 @@ body {
   position: absolute;
   bottom: 20px;
   right: 10px;
-
 }
 
-#banner{
+#banner {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -283,22 +293,70 @@ body {
   background-position: center;
 }
 
-#banner>h4{
+#banner > h4 {
   color: #fff;
   font-size: 16px;
 }
 
-#banner>h2{
+#banner > h2 {
   color: #fff;
   font-size: 28px;
   padding: 30px 0;
 }
 
-#banner h2 span{
+#banner h2 span {
   color: #ef3636;
 }
 
-#banner button:hover{
+#banner button:hover {
   background-color: #088178;
   color: #fff;
+}
+
+#sm-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#sm-banner .banner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  background-image: url("img/banner/b17.jpg");
+  min-width: 540px;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
+
+#sm-banner .banner-box2{
+  background-image: url("img/banner/b10.jpg");
+}
+
+#sm-banner h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#sm-banner h2 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+#sm-banner span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+#sm-banner .banner-box:hover button{
+  background-color: #088178;
+  border: 1px solid #088178;
 }
